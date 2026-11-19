@@ -1,0 +1,107 @@
+{
+  "project": "AI-Based Dynamic Fishing Zone Prediction System",
+  "institution": "Sahyadri College of Engineering & Management, Mangaluru (VTU)",
+  "models_evaluated": {
+    "LightGBM_Spatial": {
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "f1_score": 0.9983,
+      "precision": 0.9997,
+      "recall": 0.9968,
+      "confusion_matrix": [
+        [
+          316491,
+          4
+        ],
+        [
+          49,
+          15424
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.99984520123839,
+          "recall": 0.999987361569693,
+          "f1-score": 0.9999162763512286,
+          "support": 316495.0
+        },
+        "1": {
+          "precision": 0.9997407311381903,
+          "recall": 0.9968331933044658,
+          "f1-score": 0.9982848451506424,
+          "support": 15473.0
+        },
+        "accuracy": 0.9998403460574513,
+        "macro avg": {
+          "precision": 0.9997929661882902,
+          "recall": 0.9984102774370794,
+          "f1-score": 0.9991005607509356,
+          "support": 331968.0
+        },
+        "weighted avg": {
+          "precision": 0.9998403318959823,
+          "recall": 0.9998403460574513,
+          "f1-score": 0.999840235482932,
+          "support": 331968.0
+        }
+      }
+    },
+    "RandomForest_Spatial": {
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "f1_score": 0.9973,
+      "precision": 1.0,
+      "recall": 0.9947,
+      "confusion_matrix": [
+        [
+          19055,
+          0
+        ],
+        [
+          5,
+          940
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9997376705141658,
+          "recall": 1.0,
+          "f1-score": 0.9998688180506362,
+          "support": 19055.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.9947089947089947,
+          "f1-score": 0.9973474801061007,
+          "support": 945.0
+        },
+        "accuracy": 0.99975,
+        "macro avg": {
+          "precision": 0.9998688352570829,
+          "recall": 0.9973544973544973,
+          "f1-score": 0.9986081490783685,
+          "support": 20000.0
+        },
+        "weighted avg": {
+          "precision": 0.9997500655823714,
+          "recall": 0.99975,
+          "f1-score": 0.999749684832757,
+          "support": 20000.0
+        }
+      }
+    }
+  },
+  "top_feature_importances": {
+    "sst_gradient": 0.4918,
+    "elevation": 0.4295,
+    "sst_persistence": 0.0165,
+    "sst": 0.0146,
+    "front_overlap": 0.0143,
+    "dist_to_coast_km": 0.0139,
+    "ugos": 0.0061,
+    "month_cos": 0.0051
+  },
+  "total_training_records": 332880,
+  "total_testing_records": 331968,
+  "sample_routes_generated": 5
+}

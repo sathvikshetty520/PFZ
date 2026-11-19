@@ -1,0 +1,16 @@
+Variable,Long_Name,Units,Total_Observations,Valid_Observations,NaN_Observations,Percent_Valid,Min,Max,Mean,Std,Quality_Status
+sst,Sea Surface Temperature,degC,11664000,8583246,3080754,73.59%,15.3900,33.6300,28.8948,1.3056,Verified & Aligned
+uo,Eastward Ocean Current Velocity,m/s,11664000,8440362,3223638,72.36%,-1.9735,2.0884,0.0114,0.2481,Verified & Aligned
+vo,Northward Ocean Current Velocity,m/s,11664000,8440362,3223638,72.36%,-2.4879,1.5343,-0.0083,0.1906,Verified & Aligned
+u10,10-meter Eastward Wind Component,m/s,11664000,11472000,192000,98.35%,-20.5189,20.7612,1.2367,3.8883,Verified & Aligned
+v10,10-meter Northward Wind Component,m/s,11664000,11472000,192000,98.35%,-18.0902,18.1500,0.1734,3.0896,Verified & Aligned
+wind_speed,10-meter Wind Speed Magnitude,m/s,11664000,11472000,192000,98.35%,0.0017,21.6387,4.2930,2.7918,Verified & Aligned
+chlor_a,Chlorophyll-a Concentration,mg/m^3,11664000,1037608,10626392,8.90%,0.0318,85.0795,0.5048,1.2633,Verified & Aligned
+adt,Absolute Dynamic Topography (Sea Surface Height),m,11664000,656100,11007900,5.62%,0.6404,1.2502,0.8743,0.0940,Verified & Aligned
+sla,Sea Level Anomaly,m,11664000,656829,11007171,5.63%,-0.0962,0.4733,0.1247,0.0918,Verified & Aligned
+ugos,Absolute Geostrophic Velocity (Eastward),m/s,11664000,656100,11007900,5.62%,-1.0869,0.8899,0.0031,0.1408,Verified & Aligned
+vgos,Absolute Geostrophic Velocity (Northward),m/s,11664000,656100,11007900,5.62%,-0.6208,0.7838,0.0380,0.1347,Verified & Aligned
+elevation,Bathymetric Elevation (negative = depth),m,16000,16000,0,100.00%,-5292.5000,2818.7500,-2006.6671,1908.1332,Verified & Aligned
+dist_to_coast_km,Shortest Distance to Coastline,km,16000,16000,0,100.00%,0.0064,1181.7369,329.2001,271.5256,Verified & Aligned
+land_mask,"Land-Sea Mask (1=Land, 0=Ocean)",binary (0/1),16000,16000,0,100.00%,0.0000,1.0000,0.2699,0.4439,Verified & Aligned
+ssh_mask,"SSH Data Availability Mask (1=Valid SSH Sub-domain, 0=Outside SSH Coverage)",binary (0/1),16000,16000,0,100.00%,0.0000,1.0000,0.1013,0.3017,Verified & Aligned

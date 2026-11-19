@@ -1,0 +1,37 @@
+{
+  "Mangaluru Old Port (Bunder)": {
+    "lat": 12.8584,
+    "lon": 74.836,
+    "state": "Karnataka"
+  },
+  "Malpe Harbor (Udupi)": {
+    "lat": 13.3512,
+    "lon": 74.7018,
+    "state": "Karnataka"
+  },
+  "Karwar Fishing Harbor": {
+    "lat": 14.8144,
+    "lon": 74.1297,
+    "state": "Karnataka"
+  },
+  "Kochi Harbor (Thoppumpady)": {
+    "lat": 9.9312,
+    "lon": 76.2673,
+    "state": "Kerala"
+  },
+  "Beypore Port (Kozhikode)": {
+    "lat": 11.1643,
+    "lon": 75.807,
+    "state": "Kerala"
+  },
+  "Panaji (Mandovi Fishery Wharf)": {
+    "lat": 15.4989,
+    "lon": 73.8278,
+    "state": "Goa"
+  },
+  "Ratnagiri Harbor (Mirkarwada)": {
+    "lat": 16.9944,
+    "lon": 73.2825,
+    "state": "Maharashtra"
+  }
+}
