@@ -36,7 +36,7 @@ if not GOOGLE_MAPS_API_KEY:
     GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY", "")
 
 st.set_page_config(
-    page_title="Matsya-AI | PFZ Navigation System",
+    page_title="AI-Based Dynamic Fishing Zone Prediction System",
     page_icon="🐟",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -68,7 +68,7 @@ st.markdown("""
 # --- LOCALIZATION (ENGLISH / KANNADA) ---
 LANG = {
     "EN": {
-        "title": "🐟 Matsya-AI: Potential Fishing Zone (PFZ) & Navigation System",
+        "title": "🐟 AI-Based Dynamic Fishing Zone Prediction System (PFZ)",
         "subtitle": "Satellite AI oceanographic fusion forecasting productive fishing zones and route navigation.",
         "port_select": "📍 Departure Harbor / Port:",
         "port_help": "Select your coastal harbor.",
@@ -86,7 +86,7 @@ LANG = {
         "download_btn": "📥 Download Trip Navigation Plan (CSV)"
     },
     "KN": {
-        "title": "🐟 ಮತ್ಸ್ಯ-AI: ಸಂಭಾವ್ಯ ಮೀನುಗಾರಿಕಾ ವಲಯ (PFZ) ಮತ್ತು ನೌಕಾಯಾನ ವ್ಯವಸ್ಥೆ",
+        "title": "🐟 AI ಆಧಾರಿತ ಡೈನಾಮಿಕ್ ಸಂಭಾವ್ಯ ಮೀನುಗಾರಿಕಾ ವಲಯ (PFZ) ನೌಕಾಯಾನ ವ್ಯವಸ್ಥೆ",
         "subtitle": "ಉಪಗ್ರಹ AI ತಂತ್ರಜ್ಞಾನ: ಮೀನುಗಾರರಿಗೆ ಸಂಭಾವ್ಯ ಮೀನುಗಾರಿಕಾ ವಲಯ ಹಾಗೂ ನೌಕಾಯಾನ ಮಾರ್ಗದರ್ಶನ ನೀಡುತ್ತದೆ.",
         "port_select": "📍 ಹೊರಡುವ ಬಂದರು / ಮೀನುಗಾರಿಕಾ ತಾಣ:",
         "port_help": "ನಿಮ್ಮ ದೋಣಿ ಇರುವ ಬಂದರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
@@ -798,7 +798,7 @@ with col_routes:
         st.download_button(
             label=L["download_btn"],
             data=csv_bytes,
-            file_name=f"MatsyaAI_TripPlan_{chosen_port.split()[0]}.csv",
+            file_name=f"PFZ_TripPlan_{chosen_port.split()[0]}.csv",
             mime="text/csv",
             use_container_width=True
         )

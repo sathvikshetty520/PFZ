@@ -2,6 +2,12 @@
 # Git Ignore - Matsya-AI PFZ Prediction System
 # ==============================================================================
 
+# --- DOCUMENTS & ACADEMIC PAPERS ---
+*.docx
+*.doc
+*Paper.md
+PFZ/*Paper*.md
+
 # --- SENSITIVE DATA & API KEYS ---
 .env
 .env.local
